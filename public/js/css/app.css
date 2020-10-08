@@ -23,6 +23,14 @@ body {
   margin: 0 auto;
 }
 
+.btn-style {
+  background: #ffae00;
+}
+
+.btn-style:hover {
+  background: #fcc731;
+}
+
 .slider-outer {
   height: 100% !important;
   overflow: hidden;
@@ -59,6 +67,20 @@ body {
 
 .hero {
   background: #c8cbcd;
+}
+
+.add-to-cart {
+  border: 2px solid #ffae00;
+  background-color: #ffae00;
+  border-radius: 20px;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+.add-to-cart:hover {
+  background-color: #fcc731;
+  border: #fcc731;
 }
 
 footer {

@@ -36,6 +36,12 @@ body{
     height:580px;
     margin: 0 auto;
   }
+  .btn-style{
+      background: $primary;
+      &:hover{
+          background: $primary-hover;
+      }
+  }
   .slider-outer{
      height:100% !important;
      
@@ -78,6 +84,18 @@ body{
       background: $gray;
   }
 
+  .add-to-cart{
+    border: 2px solid $primary;
+    background-color: $primary;
+    border-radius: 20px;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    &:hover{
+        background-color: $primary-hover;
+        border: $primary-hover;
+    }
+  }
 
   //third section
 
