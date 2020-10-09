@@ -261,3 +261,58 @@ footer {
   }
 }
 
+.empty-cart-btn {
+  border: 2px solid #ffae00;
+  background-color: #ffae00;
+  border-radius: 20px;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+.empty-cart-btn:hover {
+  background-color: #fcc731;
+  border: #fcc731;
+}
+
+.amount {
+  color: orangered;
+}
+
+.order-btn {
+  border: 2px solid #ffae00;
+  background-color: #ffae00;
+  border-radius: 20px;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.order-btn:hover {
+  background-color: #fcc731;
+  border: #fcc731;
+}
+
+.login-btn {
+  border: 2px solid #ffae00;
+  background-color: #ffae00;
+  border-radius: 20px;
+  color: white;
+  padding: 8px 14px;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #fcc731;
+  border: #fcc731;
+}
+
+.account-create-btn {
+  color: orangered;
+}
+
+.account-create-btn:hover {
+  color: #ffae00;
+}
+

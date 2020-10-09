@@ -279,3 +279,61 @@ body{
 
 }
 
+
+
+//cart.js button
+
+.empty-cart-btn{
+    border: 2px solid $primary;
+    background-color: $primary;
+    border-radius: 20px;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    &:hover{
+        background-color: $primary-hover;
+        border: $primary-hover;
+    }
+  }
+
+  .amount{
+	  color: orangered;
+  }
+
+  .order-btn{
+	border: 2px solid $primary;
+    background-color: $primary;
+    border-radius: 20px;
+    color: white;
+    padding: 14px 28px;
+	font-size: 16px;
+	margin-top: 15px;
+    &:hover{
+        background-color: $primary-hover;
+        border: $primary-hover;
+    }
+  }
+
+
+  //login page
+
+ .login-btn{
+	border: 2px solid $primary;
+    background-color: $primary;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 14px;
+	font-size: 16px;
+    &:hover{
+        background-color: $primary-hover;
+        border: $primary-hover;
+    }
+ }
+
+ .account-create-btn{
+	 color: orangered;
+	 &:hover{
+		 color: $primary;
+	 }
+ }
+

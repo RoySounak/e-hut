@@ -5,16 +5,29 @@ const expressLayout = require('express-ejs-layouts')
 const path = require('path')
 const PORT = process.env.PORT || 3000
 
-//assests
-
-app.use(express.static('public'))
-app.get('/home', (req,res)=>{
-    res.render('home')
-})
 
 app.use(expressLayout)
 app.set('views', path.join(__dirname, '/resources/js/views'))
 app.set('view engine','ejs')
+
+
+//assests
+
+app.use(express.static('public'))
+
+app.get('/home', (req,res)=>{
+    res.render('home')
+})
+
+app.get('/cart', (req,res)=>{
+    res.render('customers/cart')
+})
+app.get('/login', (req,res)=>{
+    res.render('auth/login')
+})
+app.get('/register', (req,res)=>{
+    res.render('auth/register')
+})
 
 app.listen(PORT, () =>{
     console.log(`Listining on ${PORT}`)

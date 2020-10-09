@@ -1,0 +1,86 @@
+<section class="cart py-16" style="background-color:#c8cbcd">
+
+    <div class="order container mx-auto w-1/2">
+        <div class="flex items-center border-b border-gray-500 pb-3">
+            <img src="js/css/img/cart.png" alt="">
+            <h3 class="ml-4 font-bold">Order Summary</h3>
+        </div>
+
+        <!-- order-list start -->
+        <div class="order-list">
+            <div class="flex items-center my-8">
+                <img class="w-24" src="js/css/img/hero-pizza.png" alt="">
+                    <div class=" flex-1 ml-4">
+                            <h4>Name</h4>
+                            <span>Medium</span>
+                    </div>
+                        <span class="flex-1">1 Pcs</span>
+                        <span class="font-bold text-lg">Price: $6</span>
+            </div>
+
+            <div class="flex items-center my-8">
+                <img class="w-24" src="js/css/img/hero-pizza.png" alt="">
+                    <div class=" flex-1 ml-4">
+                            <h4>Name</h4>
+                            <span>Medium</span>
+                    </div>
+                        <span class="flex-1">1 Pcs</span>
+                        <span class="font-bold text-lg">Price: $6</span>
+            </div>
+
+            <div class="flex items-center my-8">
+                <img class="w-24" src="js/css/img/hero-pizza.png" alt="">
+                    <div class=" flex-1 ml-4">
+                            <h4>Name</h4>
+                            <span>Medium</span>
+                    </div>
+                        <span class="flex-1">1 Pcs</span>
+                        <span class="font-bold text-lg">Price: $6</span>
+            </div>
+        </div>
+        <!-- order-list end -->
+
+        <hr>
+
+        <div class="text-right py-4">
+            <div>
+                <span class="text-lg font-bold">Total Amount: </span>
+                <span class="amount text-2xl font-bold ml-2">$50</span>
+            </div>
+            <div>
+                <form class="py-4" action="">
+                    <input class="border-b border-gray-500 p-2 w-1/2 mb-4" type="text" placeholder="Phone Number">
+                    <input class="border-b border-gray-500 p-2 w-1/2" type="text" placeholder="Address">
+                    
+                    <!-- if logged in then order now -->
+                    <!-- <div>
+                        <button class="order-btn" type="submit">Order Now</button>
+                    </div> -->
+                </form>
+            </div>
+
+        <!-- if not logged in then Login To Continue -->
+        <a href="/login" class="inline-block cursor-pointer">
+            <button class="order-btn" type="submit">Login To Continue</button>
+        </a>
+
+        </div>
+    </div>
+    
+<!-- section for empty cart -->
+    <!-- <div class="empty-cart py-16" style="background-color:#c8cbcd">
+
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Cart is empty :-(</h2>
+            <p class="text-lg mb-10">You didn't order anything yet. <br>
+                Don't think too much. Just Order. 
+            </p>
+        </div>
+        <div class="container mx-auto text-center w-1/6 mt-20">
+            <img src="js/css/img/empty-cart.png" alt="empty-cart logo">
+            <a href="/home"><button class="empty-cart-btn mt-10 mb-10">Continue Shopping</button></a>
+        </div>
+    </div> -->
+</section>
+
+
