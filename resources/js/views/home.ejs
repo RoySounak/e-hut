@@ -39,23 +39,28 @@
     <section class="menu container mx-auto py-8">
         <h1 class="text-xl fint-bold mb-8">All Dishes</h1>
         <div class="grid grid-cols-3 col-gap-12 row-gap-10">
-            <div>
-                <img class="h-50 mb-4 mx-auto" src="js/css/img/2.jpg" alt="">
-                <div class="text-center">
-                    <h2>Fried Rice</h2>
-                    <span class="color py-1 px-4 rounded-full text-x5">Small</span>
-                    <div class="flex items-center justify-center mt-6">
-                        <h4 class="price">Price:</h4>
-                        <span class="font-bold text-lg mr-20">$6</span>
-                        <button class="add-to-cart">
-                            <span class="mr-4">+</span>
-                            <span>Add</span>
-                        </button>
+            
+            <% foods.forEach(function(food) { %>
+                <div>
+                    <img class="h-50 mb-4 mx-auto" src="js/css/img/<%= food.image %>" alt="">
+                    <div class="text-center">
+                        <h2><%= food.name%></h2>
+                        <span class="color py-1 px-4 rounded-full text-x5"><%= food.size%></span>
+                        <div class="flex items-center justify-center mt-6">
+                            <h4 class="price">Price:</h4>
+                            <span class="font-bold text-lg mr-20">$<%= food.price%></span>
+                            <button data-food="<%= JSON.stringify(food) %>" 
+                                class="add-to-cart flex items-center font-bold justify-between">
+                                <span class="mr-4">+</span>
+                                <span>Add</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+           <% })%>
+            
 
-            <div>
+            <!-- <div>
                 <img class="h-50 mb-4 mx-auto" src="js/css/img/2.jpg" alt="">
                 <div class="text-center">
                     <h2>Fried Rice</h2>
@@ -69,70 +74,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div>
-                <img class="h-50 mb-4 mx-auto" src="js/css/img/2.jpg" alt="">
-                <div class="text-center">
-                    <h2>Fried Rice</h2>
-                    <span class="color py-1 px-4 rounded-full text-x5">Small</span>
-                    <div class="flex items-center justify-center mt-6">
-                        <h4 class="price">Price:</h4>
-                        <span class="font-bold text-lg mr-20">$6</span>
-                        <button class="add-to-cart">
-                            <span class="mr-4">+</span>
-                            <span>Add</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <img class="h-50 mb-4 mx-auto" src="js/css/img/2.jpg" alt="">
-                <div class="text-center">
-                    <h2>Fried Rice</h2>
-                    <span class="color py-1 px-4 rounded-full text-x5">Small</span>
-                    <div class="flex items-center justify-center mt-6">
-                        <h4 class="price">Price:</h4>
-                        <span class="font-bold text-lg mr-20">$6</span>
-                        <button class="add-to-cart">
-                            <span class="mr-4">+</span>
-                            <span>Add</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <img class="h-50 mb-4 mx-auto" src="js/css/img/2.jpg" alt="">
-                <div class="text-center">
-                    <h2>Fried Rice</h2>
-                    <span class="color py-1 px-4 rounded-full text-x5">Small</span>
-                    <div class="flex items-center justify-center mt-6">
-                        <h4 class="price">Price:</h4>
-                        <span class="font-bold text-lg mr-20">$6</span>
-                        <button class="add-to-cart">
-                            <span class="mr-4">+</span>
-                            <span>Add</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <img class="h-50 mb-4 mx-auto" src="js/css/img/2.jpg" alt="">
-                <div class="text-center">
-                    <h2>Fried Rice</h2>
-                    <span class="color py-1 px-4 rounded-full text-x5">Small</span>
-                    <div class="flex items-center justify-center mt-6">
-                        <h4 class="price">Price:</h4>
-                        <span class="font-bold text-lg mr-20">$6</span>
-                        <button class="add-to-cart">
-                            <span class="mr-4">+</span>
-                            <span>Add</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>

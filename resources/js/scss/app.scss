@@ -1,6 +1,8 @@
 
 
 @import './variables';
+@import '~noty/src/noty.scss';
+@import '~noty/src/themes/mint.scss';
 
 body{
     font-family: 'Lato', sans-serif;
@@ -40,6 +42,9 @@ body{
       background: $primary;
       &:hover{
           background: $primary-hover;
+      }
+      &:focus{
+        outline: none;
       }
   }
   .slider-outer{
@@ -94,6 +99,9 @@ body{
     &:hover{
         background-color: $primary-hover;
         border: $primary-hover;
+    }
+    &:focus{
+      outline: none;
     }
   }
 
@@ -294,6 +302,9 @@ body{
         background-color: $primary-hover;
         border: $primary-hover;
     }
+    &:focus{
+      outline: none;
+    }
   }
 
   .amount{
@@ -312,6 +323,9 @@ body{
         background-color: $primary-hover;
         border: $primary-hover;
     }
+    &:focus{
+      outline: none;
+    }
   }
 
 
@@ -328,12 +342,24 @@ body{
         background-color: $primary-hover;
         border: $primary-hover;
     }
+    &:focus{
+      outline: none;
+    }
  }
 
  .account-create-btn{
 	 color: orangered;
 	 &:hover{
 		 color: $primary;
-	 }
+   }
+   &:focus{
+    outline: none;
+  }
  }
 
+
+ //notification by noty 
+ .noty_theme__mint {
+  border-radius: 50px!important;
+  padding-left: 8px!important;
+}
