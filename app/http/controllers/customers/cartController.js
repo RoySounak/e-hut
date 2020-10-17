@@ -5,6 +5,7 @@ function cartController(){
         cart(req,res){
             res.render('customers/cart')
         },
+
         //after getting the food deatils and post to this route
         update(req,res){
             //for first time crating new cart and adding basic object structure 
@@ -34,7 +35,6 @@ function cartController(){
             }
             return res.json({ totalQty: req.session.cart.totalQty})
         }
-        
     }   
 }
 

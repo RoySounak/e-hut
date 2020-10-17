@@ -20,22 +20,8 @@
                         <span class="font-bold text-lg">Price: $<%= food.item.price * food.qty %></span>
             </div>
             <%}%>
-
-            <!-- just for front end -->
-            <!-- <div class="flex items-center my-8">
-                <img class="w-24" src="js/css/img/hero-pizza.png" alt="">
-                    <div class=" flex-1 ml-4">
-                            <h4>Name</h4>
-                            <span>Medium</span>
-                    </div>
-                        <span class="flex-1">1 Pcs</span>
-                        <span class="font-bold text-lg">Price: $6</span>
-            </div>
-
-
         </div>
-        <!-- order-list end -->
-
+        
         <hr>
 
         <div class="text-right py-4">
@@ -44,22 +30,27 @@
                 <span class="amount text-2xl font-bold ml-2">$<%= session.cart.totalPrice %></span>
             </div>
             <div>
-                <form class="py-4" action="">
-                    <input class="border-b border-gray-500 p-2 w-1/2 mb-4" type="text" placeholder="Phone Number">
-                    <input class="border-b border-gray-500 p-2 w-1/2" type="text" placeholder="Address">
-                    
+                <form class="py-4" action="/orders" method="POST">
+                    <input name="phone"
+                    class="border-b border-gray-500 p-2 w-1/2 mb-4" type="text" placeholder="Phone Number">
+                    <input name="address"
+                    class="border-b border-gray-500 p-2 w-1/2" type="text" placeholder="Address">
                     <!-- if logged in then order now -->
-                    <!-- <div>
-                        <button class="order-btn" type="submit">Order Now</button>
-                    </div> -->
+                    <div>
+                        <% if(user){ %> 
+                            <button class="order-btn" type="submit">Order Now</button>
+                        <% }else{ %>
+                            <a href="/login" class="inline-block cursor-pointer">
+                             <button class="order-btn" type="submit">Login To Continue</button>
+                         </a>
+                         <%  } %>
+                    </div>
                 </form>
             </div>
-
         <!-- if not logged in then Login To Continue -->
-        <a href="/login" class="inline-block cursor-pointer">
-            <button class="order-btn" type="submit">Login To Continue</button>
-        </a>
-
+            <!-- <a href="/login" class="inline-block cursor-pointer">
+                <button class="order-btn" type="submit">Login To Continue</button>
+            </a> -->
         </div>
     </div>
     <% }else{ %>

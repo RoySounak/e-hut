@@ -363,3 +363,14 @@ body{
   border-radius: 50px!important;
   padding-left: 8px!important;
 }
+
+.colorOfWelcomeUser{
+  color: $primary;
+  text-decoration: underline;
+}
+
+//customer/orders
+
+a.link{
+  color: $primary;
+}

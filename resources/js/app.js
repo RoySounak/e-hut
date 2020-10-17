@@ -1,6 +1,7 @@
 import axios from 'axios'
 import session from 'express-session'
 import Noty from 'noty'
+import {initAdmin} from './admin'
 
 let addToCart = document.querySelectorAll('.add-to-cart')
 let cartCounter = document.querySelector('#cartCounter')
@@ -28,3 +29,7 @@ addToCart.forEach((btn)=>{
         updateCart(food)
     })
 })
+
+
+//admin
+initAdmin()

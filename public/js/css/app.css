@@ -650,3 +650,12 @@ footer {
   padding-left: 8px !important;
 }
 
+.colorOfWelcomeUser {
+  color: #ffae00;
+  text-decoration: underline;
+}
+
+a.link {
+  color: #ffae00;
+}
+
