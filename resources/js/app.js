@@ -92,10 +92,4 @@ socket.on('orderUpdated',(data)=>{
         timeout:1000,
         text: "Order Updated"
     }).show();
-}).catch(err=>{
-    new Noty({
-        type:'error',
-        timeout:1000,
-        text: "Oopss!!! Something went wrong"
-    }).show();
 })

@@ -2,8 +2,8 @@
     <section class="hero py-8">
         <div class="container mx-auto items-center flex justify-between" >
             <div class="w-1/2">
-                <h6 class="text-lg"><em>Are you hungrey?</em></h4>
-                <h1 class="text-3xl font-bold">Don't Wait</h2>
+                <h6 class="text-lg md-4 md:ml-3"><em>Are you hungrey?</em></h4>
+                <h1 class="text-3xl md:text-6xl font-bold">Don't Wait</h2>
                 <button class="btn-style px-6 py-2 rounded-full text-white fint-bold mt-4">
                     Order Now
                 </button>
@@ -38,10 +38,10 @@
     <!-- thirds section -->
     <section class="menu container mx-auto py-8">
         <h1 class="text-xl fint-bold mb-8">All Dishes</h1>
-        <div class="grid grid-cols-3 col-gap-12 row-gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 col-gap-12 row-gap-10">
             
             <% foods.forEach(function(food) { %>
-                <div>
+                <div class="w-full">
                     <img class="h-50 mb-4 mx-auto" src="js/css/img/<%= food.image %>" alt="">
                     <div class="text-center">
                         <h2><%= food.name%></h2>

@@ -4,7 +4,6 @@ const app = express()
 const ejs = require('ejs')
 const expressLayout = require('express-ejs-layouts')
 const mongoose = require('mongoose')
-const {mongourl} = require('./app/config/keys')
 const path = require('path')
 const PORT = process.env.PORT || 3000
 const session = require('express-session')
@@ -16,7 +15,7 @@ const Emitter = require('events')
 
 //Database monog connection
 
-mongoose.connect(mongourl,{
+mongoose.connect(process.env.mongourl,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useFindAndModify: true,
@@ -63,6 +62,7 @@ const passportInit = require('./app/config/passport')
 const { Server } = require('http')
 const { Socket } = require('dgram')
 const order = require('./app/models/order')
+const { use } = require('passport')
 
 passportInit(passport)
 
@@ -91,8 +91,11 @@ app.use((req,res,next)=>{
     next()
 })
 
+//routes initialise
 require('./routes/web')(app)
-
+app.use((req,res) =>{
+    res.status(404).render('404/404')
+})
 
 //port 
 
