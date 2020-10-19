@@ -35,6 +35,13 @@
                     class="border-b border-gray-500 p-2 w-1/2 mb-4" type="text" placeholder="Phone Number">
                     <input name="address"
                     class="border-b border-gray-500 p-2 w-1/2" type="text" placeholder="Address">
+
+                    <select class="border-b border-gray-500 p-2 w-1/2 mt-4" name="paymentType" id="paymentType">
+                      <option value="COD">COD</option>
+                      <option value="Credit Card">Credit Card</option>
+                      <option value="Debit Card">Debit Card</option>
+                    </select>
+
                     <!-- if logged in then order now -->
                     <div>
                         <% if(user){ %> 

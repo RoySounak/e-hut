@@ -3,6 +3,7 @@ const authController = require('../app/http/controllers/authController')
 const cartController = require('../app/http/controllers/customers/cartController')
 const orderController = require('../app/http/controllers/customers/orderController')
 const adminOrderController = require('../app/http/controllers/admin/adminOrderController')
+const statusController = require('../app/http/controllers/admin/statusController')
 
 //middleware
 const guest = require('../app/http/middleware/guest')
@@ -38,6 +39,13 @@ function initRoutes(app){
     //order routes(for admin)
 
     app.get('/admin-orders',admin, adminOrderController().adminOrder)
+
+
+    //order status from admin
+    app.post('/admin-orders-status',admin, statusController().orderStatusUpdate)
+
+    //single page staus delivery order
+    app.get('/customer-orders-:id', auth, orderController().show)
 }
 
 module.exports = initRoutes;
