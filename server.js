@@ -93,9 +93,9 @@ app.use((req,res,next)=>{
 
 //routes initialise
 require('./routes/web')(app)
-app.use((req,res) =>{
-    res.status(404).render('404/404')
-})
+// app.use((req,res) =>{
+//     res.status(404).render('404/404')
+// })
 
 //port 
 
