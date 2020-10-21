@@ -13,7 +13,7 @@ const admin = require('../app/http/middleware/admin')
 function initRoutes(app){
     
     //home
-    app.get('/home', homeContoller().index)
+    app.get('/', homeContoller().index)
     
     //auth
     app.get('/login', guest, authController().login)    //login page

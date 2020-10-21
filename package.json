@@ -1,5 +1,6 @@
 {
   "name": "e-hut",
+  "homepage": "https://e-hut.xyz",
   "version": "1.0.0",
   "description": "This is realtime ecommerce site",
   "main": "index.js",
@@ -23,6 +24,7 @@
     "express-ejs-layouts": "^2.5.0",
     "express-flash": "0.0.2",
     "express-session": "^1.17.1",
+    "gh-pages": "^3.1.0",
     "moment": "^2.29.1",
     "mongoose": "^5.10.8",
     "noty": "^3.2.0-beta",

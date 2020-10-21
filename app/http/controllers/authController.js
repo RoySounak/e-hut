@@ -28,7 +28,7 @@ function authController(){
                         return next(err)
                     }
                     
-                    return res.redirect('/home')
+                    return res.redirect('/')
                 })
             })(req, res, next)
         },
@@ -62,7 +62,7 @@ function authController(){
                 password: hashPassword
             })
             user.save().then(()=>{
-                return res.redirect('/home')
+                return res.redirect('/')
             }).catch(err =>{
                 req.flash('error','Something gone wrong')
                 return res.redirect('/register')
