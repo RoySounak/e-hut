@@ -1,5 +1,5 @@
 # e-hut
 
-# How to Use ⚙️
+## How to Use ⚙️
 
 To run the project, `npm install` and do `npm run dev`. Thanks
