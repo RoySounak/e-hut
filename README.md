@@ -2,4 +2,13 @@
 
 # How to Use ⚙️
 
-After download or clone run npm install OR yarn install to install all the dependancies.
+From your command line, first clone Simplefolio:
+
+`# Clone this repository
+$ git clone https://github.com/cobidev/gatsby-simplefolio
+
+# Go into the repository
+$ cd gatsby-simplefolio
+
+# Remove current origin repository
+$ git remote remove origin`
