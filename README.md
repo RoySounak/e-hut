@@ -28,9 +28,9 @@ This food ordering site is developed by NodeJS, ExpressJS, MongoDB, ReactJS, soc
    ** Email Id: _roysounakjob@gmail.com_ **
 
 
-### Pics
+### **_Screenshots of the website_**
 
-![alt text](https://github.com/RoySounak/ImageLibary/blob/main/e-hut.jpg)
+![alt text](https://photos.google.com/search/_tra_/photo/AF1QipNkeMyZFGFmiwiKjOvubJG1cjYeH-aPmM_dBU9Y)
 
 
 
