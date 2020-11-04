@@ -1,28 +1,31 @@
 # e-hut
 
-# How to Use
 
-  > Clone this repository
-    $ git clone https://github.com/RoySounak/e-hut
+# Clone this repository
+$ git clone https://github.com/cobidev/gatsby-simplefolio
 
-  > Go into the repository
-    $ cd e-hut
+# Go into the repository
+$ cd gatsby-simplefolio
 
+# Remove current origin repository
+$ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
-  > Using NPM:
+Using NPM:
 
-  > Install dependencies
-    $ npm install
+# Install dependencies
+$ npm install
 
-  > Start development server
-    $ npm run dev
-    $ npm run watch
+# Start development server
+$ npm run develop
+Using Yarn:
 
-  > Using Yarn
+# Install dependencies
+$ yarn
 
-  > Install dependencies
-    $ yarn
+# Start development server
+$ yarn develop
+NOTE: If your run into issues installing the dependencies with NPM, use this command:
 
-  > Start development server
-    $ yarn dev
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
