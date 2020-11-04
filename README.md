@@ -3,11 +3,11 @@
 ### How to Use ⚙️
  > #From your command line, first clone this e-hut repo:
 
-   `git clone https://github.com/RoySounak/e-hut/`
+    git clone https://github.com/RoySounak/e-hut/
 
  > #Go into the repository
 
-  `cd e-hut`
+    cd e-hut
 
  > #Then install the dependencies either using NPM or Yarn
 
