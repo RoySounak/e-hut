@@ -30,7 +30,7 @@ This food ordering site is developed by NodeJS, ExpressJS, MongoDB, ReactJS, soc
 
 ### Screenshots of the website
 
-![Screenshots](https://www.youtube.com/watch?v=hHbWF1Bvgf4)
+![Screenshots](/e-hut_screenshot_readme.jpg)
 
 
 
