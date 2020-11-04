@@ -28,9 +28,9 @@ This food ordering site is developed by NodeJS, ExpressJS, MongoDB, ReactJS, soc
    ** Email Id: _roysounakjob@gmail.com_ **
 
 
-### **_Screenshots of the website_**
+### Screenshots of the website
 
-![alt text](https://photos.google.com/search/_tra_/photo/AF1QipNkeMyZFGFmiwiKjOvubJG1cjYeH-aPmM_dBU9Y)
+![Screenshots](https://www.awesomescreenshot.com/video/1594704?key=d305d20b986a291610f1383217dc0eb2)
 
 
 
