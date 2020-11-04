@@ -9,13 +9,13 @@
 
   `cd e-hut`
 
- > #Then install the dependencies either using NPM or Yarn:
+ > #Then install the dependencies either using NPM or Yarn
 
-   `npm install`   `yarm install`
+    `npm install`  or  `yarm install`
   
  > #Start development server
   
-    `npm install`   `yarm install`
+    `npm install`  or  `yarm install`
 
 🙏 If you find this repo interesting then don't forget to contact with me. I am Job seeker. :)
 
