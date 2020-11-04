@@ -1,27 +1,28 @@
 # e-hut
-#How-To-USE
 
-# Clone this repository
-$ git clone https://github.com/RoySounak/e-hut
+# How to Use
 
-# Go into the repository
-$ cd e-hut
+  > Clone this repository
+    $ git clone https://github.com/RoySounak/e-hut
+
+  > Go into the repository
+    $ cd e-hut
 
 Then you can install the dependencies either using NPM or Yarn:
 
-Using NPM:
+  > Using NPM:
 
-# Install dependencies
-$ npm install
+  > Install dependencies
+    $ npm install
 
-# Start development server
-$ npm run dev
-$ npm run watch
+  > Start development server
+    $ npm run dev
+    $ npm run watch
 
-Using Yarn:
+  > Using Yarn
 
-# Install dependencies
-$ yarn
+  > Install dependencies
+    $ yarn
 
-# Start development server
-$ yarn dev
+  > Start development server
+    $ yarn dev
