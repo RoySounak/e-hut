@@ -17,9 +17,9 @@
   
  > #Start development server
   
-    npm install  
+    npm run dev
     
-    yarm install
+    yarm dev
 
 🙏 If you find this repo interesting then don't forget to contact with me. I am Job seeker. :)
 
