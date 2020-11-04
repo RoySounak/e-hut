@@ -30,7 +30,7 @@ This food ordering site is developed by NodeJS, ExpressJS, MongoDB, ReactJS, soc
 
 ### Screenshots of the website
 
-![Screenshots](https://www.awesomescreenshot.com/video/1594704?key=d305d20b986a291610f1383217dc0eb2)
+![Screenshots](https://www.youtube.com/watch?v=hHbWF1Bvgf4)
 
 
 
