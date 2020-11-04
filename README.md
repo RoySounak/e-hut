@@ -11,11 +11,15 @@
 
  > #Then install the dependencies either using NPM or Yarn
 
-    `npm install`  or  `yarm install`
+    npm install  
+    
+    yarm install
   
  > #Start development server
   
-    `npm install`  or  `yarm install`
+    npm install  
+    
+    yarm install
 
 🙏 If you find this repo interesting then don't forget to contact with me. I am Job seeker. :)
 
