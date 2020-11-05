@@ -33,6 +33,9 @@ This food ordering site is developed by NodeJS, ExpressJS, MongoDB, ReactJS, soc
 ![Screenshots](/e-hut_screenshot_readme.jpg)
 
 
+### Login Credential for Admin
 
+   `Id: admin@gmail.com`
+   `Password: 123456`
 
 
